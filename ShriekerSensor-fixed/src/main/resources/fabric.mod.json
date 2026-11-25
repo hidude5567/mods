@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "shrieker_sensor",
+  "version": "${version}",
+  "name": "Shrieker Sensor",
+  "description": "Highlights walking surfaces near sculk shrieker hazards.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.kodari.shriekersensor.ShriekerSensorClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    "kodari"
+  ]
+}
